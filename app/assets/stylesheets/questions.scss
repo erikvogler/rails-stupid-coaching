@@ -1,3 +1,39 @@
 // Place all the styles related to the QuestionsControlller controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+ $gray: #F4F4F4;
+
+ body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-color: #f7f7f7;
+ }
+
+h1 {
+  margin-left: 50px;
+  font-family: "Helvetica",
+}
+
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 900px;
+  margin: 24px auto;
+}
+
+a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #268BD2;
+}
+
+a:hover {
+  color: #227FC2;
+}
+
+div {
+  box-shadow: 5px 0 10px rgba(0,0,0,0.15);
+  background-color: #e7f0f7;
+  margin: 20px;
+  width: 500px;
+}

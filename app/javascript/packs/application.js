@@ -8,4 +8,4 @@ import Turbolinks from "turbolinks"
 import "channels"
 
 Rails.start()
-Turbolinks.start()
+            Turbolinks.start()
